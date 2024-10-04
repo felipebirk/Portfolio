@@ -1,0 +1,204 @@
+header {
+  background-image: url(images/BackgroundIntro.png);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.logo {
+  border-radius: 100px;
+  border: 2px solid white;
+}
+.nome {
+  font-size: 1.2em;
+}
+
+.titulo {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.descricao {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icones {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icones div {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.icones img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.trabalho {
+  color: #E3646E;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 105%;
+}
+
+.conteudo-principal {
+  background-color: #16181D;
+}
+
+.projetos {
+color: #E2E4E9;
+text-align: center;
+font-size: 130%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px; /* Adiciona espaço ao redor do container */
+  background-color: #f0f0f0; /* Define a cor de fundo do container */
+  justify-content: center; /* Alinha os itens do grid no centro horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima para o contêiner */
+  margin: 0 auto; /* Centraliza o contêiner na página */
+  border-radius: 50px;
+  background-color: #16181D;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+.card p {
+  padding: 0 10px 15px;
+  text-align: center;
+  color: #555;
+}
+
+.icones-servicos {
+  display: flex; /* Para exibir os filhos em linha */
+  justify-content: center; /* Para centralizar os ícones horizontalmente */
+  align-items: flex-start; /* Alinha os itens no início do eixo vertical */
+}
+
+.campo {
+  text-align: center; /* Centraliza o texto abaixo da imagem */
+  margin: 0 10px; /* Espaço entre os campos */
+  border: 1px solid #ccc; /* Adiciona uma borda ao campo (opcional) */
+  padding: 10px; /* Espaço interno no campo */
+  border-radius: 5px; /* Arredonda os cantos da borda (opcional) */
+}
+
+.campo img {
+  width: 50px; /* Ajuste a largura da imagem */
+  height: auto; /* Manter a proporção da imagem */
+}
+
+.campo p {
+  margin-top: 5px; /* Espaço entre a imagem e o texto */
+  color: #d9deeb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.campo h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato {
+  color: #BB72E9;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 105%;
+}
+
+.acompanhe {
+  margin-top: 5px; /* Espaço entre a imagem e o texto */
+  color: #d9deeb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  background-image: url(images/BackgroundContacts.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-container {
+  background-image: url(images/BackgroundContacts.png);
+  display: flex; /* Flexbox para centralizar */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+
+}
+
+.app-list {
+  display: flex;
+  flex-direction: column; /* Coloca os itens um embaixo do outro */
+  gap: 10px; /* Espaço entre os campos */
+  max-width: 400px; /* Largura máxima dos campos */
+  width: 100%; /* Largura total do contêiner */
+}
+
+.app-item {
+  display: flex; /* Flexbox para alinhar itens em linha */
+  align-items: center; /* Alinha verticalmente os itens */
+  border: 1px solid #ccc; /* Borda do campo */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px; /* Espaço interno */
+  background-color: white; /* Cor de fundo dos campos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.app-item img {
+  width: 40px; /* Largura da imagem */
+  height: auto; /* Manter a proporção */
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.app-item span {
+  font-size: 16px; /* Tamanho do texto */
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
